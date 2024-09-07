@@ -4,23 +4,12 @@ import helpIcon from "../assets/Vector.png"
 import frame from "../assets/Frame 1000002250.png"
 
 function NavigationCard() {
-  const [active, setActive] = React.useState(0);
   const [period, setPeriod] = React.useState(0);
-  const handleChangePlan = (index) => {
-    setActive(index);
-  };
+
   const handleChangePeriod = (index ) => {
     setPeriod(index);
-    if (index === 0) {
-      setStarter(9.99);
-      setPro(19.99);
-    } else {
-      setStarter(7.49);
-      setPro(17.49);
-    }
   };
-  const [starter, setStarter] = React.useState(9.99);
-  const [pro, setPro] = React.useState(19.99);
+
   return (
 <div className='h-[316px] w-[720px] bg-[#363C43]  py-[18px] rounded-[18.89px] flex flex-col justify-top items-center items-top pt-6 overflow-hidden relative'>
 <img src={helpIcon} className="w-[24px] h-[24px] absolute top-4 left-3" alt="help" />
