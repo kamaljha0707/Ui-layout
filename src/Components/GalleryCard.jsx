@@ -35,7 +35,7 @@ function GalleryCard() {
         <h2 className="text-white flex items-center justify-center font-medium bg-[#171717] rounded-[20px] h-[60px] w-[169px]  py-3 text-[20px]">Gallery</h2>
         <div className="flex gap-5 ">
           <button
-            className="flex items-center justify-center gap-2 px-6 py-2 text-white text-[12px] font-[800] font-medium rounded-full bg-[#ffffff05] hover:bg-[#ffffff09] shadow-[6px_6px_10px_rgba(0,0,0,0.6),-6px_-6px_10px_rgba(255,255,255,0.1)]"
+            className="flex items-center justify-center gap-2 px-6 py-2 text-white text-[12px] font-medium rounded-full bg-[#ffffff05] hover:bg-[#ffffff09] shadow-[6px_6px_10px_rgba(0,0,0,0.6),-6px_-6px_10px_rgba(255,255,255,0.1)]"
             onClick={addImage}
           >
             + ADD IMAGE

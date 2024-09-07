@@ -1,5 +1,4 @@
 import React from 'react'
-import AnimatedNumbers from "react-animated-numbers";
 import helpIcon from "../assets/Vector.png"
 import frame from "../assets/Frame 1000002250.png"
 
